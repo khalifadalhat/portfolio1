@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eb414e;
+    position: fixed;
+    padding: 0 3.5em;
+}
+ nav .logo{
+    font-size: 1.5em;
+    color: #000000;
+
+}
+ nav .social-icon ul{
+    display: flex;
+    flex-direction: row;
+}
+.social-icon ul li{
+    list-style-type: none;
+    margin: 0 5px;
+}
+.social-icon a img{
+    width: 20px;
+    height: 20px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero section{
+    padding: 0 3.5em;
+  
+}
+ h1{
+    margin-bottom: 0.5em;
+}
+.hero img{
+    max-height: 100vh;
+    width: 50%;
+}
+.container{
+    padding: 3.3em;
+}
+.services-con  , .work-con{
+    background: #f1f1f1;
+}
+
+.services-con > h2, .work-con > h2, .services > h3{
+    margin-bottom: 0.5em;
+    
+}
+.services, .works {
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 3em 0;
+
+}
+.services .service , .works .work {
+    flex: 30%;
+    text-align: center;
+    padding: 2em 1.5em;
+}
+.services .service:hover{
+    box-shadow: 0 10px 30px rgba(223,14,84, 0.972);
+}
+.service img{
+    max-width: 100px;
+}
+.work img{
+    width: 300px;
+    height: 300px; 
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.info section{
+    flex: 25%;
+    padding: 1.5em 2em;
+}
+.info .copy{
+    text-align: center;
+    background: #eb414e;
+    color: #ffffff;
+}
+.info .call{
+    text-decoration: none;
+    color: #eb414e;
+}
+
+    
+    
+.logoo{
+    margin-top: 50px;
+}
+
+.logoo a img{
+    width: 35px;
+    height: 35px;
+}
+
